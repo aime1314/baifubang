@@ -1,0 +1,592 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "百付邦",
+				"navigationBarBackgroundColor": "#ff6619",
+				"navigationBarTextStyle": "white"
+			}
+		}
+		,{
+		    "path" : "pages/pay/topUp",
+		    "style" : {
+				"navigationBarTitleText": "充值"
+			}
+		}
+		,{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}
+		,{
+			"path": "pages/index/location",
+			"style": {
+				"navigationBarTitleText": "定位"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText": "会员状态",
+				"navigationBarBackgroundColor": "#ff6600",
+				"navigationBarTextStyle": "white"
+			}
+        }
+	    ,{
+            "path" : "pages/takeout/takeout",
+            "style" : {
+				"navigationBarTitleText": "外卖",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+            	"navigationBarTitleText": "店铺"
+            }
+        }
+        ,{
+            "path" : "pages/shop/detail",
+            "style" : {
+            	"navigationBarTitleText": "商品详情"
+            }
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" : {
+				"navigationBarTitleText": "支付"
+			}
+        }
+        ,{
+            "path" : "pages/pay/payStatus",
+            "style" : {
+				"navigationBarTitleText": "支付状态"
+			}
+        }
+        ,{
+            "path" : "pages/pay/qrcodePay",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/pay/qrcodePayStatus",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/pay/withdrawal",
+            "style" : {
+				"navigationBarTitleText": "提现"
+			}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#ff6619",
+				"navigationBarTextStyle": "white"
+            }
+        }
+        ,{
+            "path" : "pages/cart/payOrder",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/order/orderList",
+            "style" : {
+				"navigationBarTitleText": "订单列表",
+				"navigationBarBackgroundColor": "#ff6619",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/order/orderDetail",
+            "style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#ff6619",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/auth/login",
+            "style": {
+            	"navigationBarTitleText": "登录",
+            	"navigationBarBackgroundColor": "#ff6619",
+            	"navigationBarTextStyle": "white"
+            }
+        }
+        ,{
+            "path" : "pages/auth/register",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/auth/editPwd",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/auth/settleIn",
+            "style" : {
+				"navigationBarTitleText": "商家入驻"
+			}
+        }
+        ,{
+            "path" : "pages/auth/impower",
+            "style": {
+            	"navigationBarTitleText": "微信授权",
+            	"navigationBarBackgroundColor": "#ff6619",
+            	"navigationBarTextStyle": "white"
+            }
+        }
+        ,{
+            "path" : "pages/auth/editPhone",
+            "style" : {}
+        }
+		,{
+            "path" : "pages/index/category",
+            "style" : {
+				"navigationBarTitleText": "所有分类"
+			}
+        }
+        ,{
+            "path" : "pages/index/categoryDatail",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+        ,{
+            "path" : "pages/order/refund",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/refundDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/wallet",
+            "style" : {
+				"navigationBarTitleText": "我的钱包",
+				"navigationBarBackgroundColor": "#ff6619",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/bill",
+            "style" : {
+				"navigationBarTitleText": "账单",
+				"navigationBarBackgroundColor": "#ff6600",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/incomeAmount",
+            "style" : {
+				"navigationBarTitleText": "记账量",
+				"navigationBarBackgroundColor": "#ff6600",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/fanDetails",
+            "style" : {
+				"navigationBarTitleText": "粉丝概况"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/promotersDetail",
+            "style" : {
+				"navigationBarTitleText": "推广员概况"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/promotersEarnings",
+            "style" : {
+				"navigationBarTitleText": "推广收益"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/architecture",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/manage/unionMerchants",
+            "style" : {
+				"navigationBarTitleText": "联盟商户"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/agent",
+            "style" : {
+				"navigationBarTitleText": "运营商",
+				"navigationBarBackgroundColor": "#ff6600",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/crossoverEarnings",
+            "style" : {
+				"navigationBarTitleText": "跨界收益"
+			}
+        }
+        ,{
+            "path" : "pages/user/manage/dataStatistical",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/manage/businessData",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/qrCode",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/shareQrCode",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/message/message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/message/detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/auth/pushIn",
+            "style" : {
+				"navigationBarTitleText": "推广员入驻"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/index",
+            "style" : {
+				"navigationBarTitleText": "店铺中心",
+				"navigationBarBackgroundColor": "#1C7CE9",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/revenue/revenue",
+            "style" : {
+				"navigationBarTitleText": "我的收益",
+				"navigationBarBackgroundColor": "#1C7CE9",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/revenue/revenueDetail",
+            "style" : {
+				"navigationBarTitleText": "收支明细",
+				"navigationBarBackgroundColor": "#1C7CE9",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/shopManage/shopList",
+            "style" : {
+				"navigationBarTitleText": "店铺管理"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/shopManage/setShop",
+            "style" : {
+				"navigationBarTitleText": "店铺管理"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/shopManage/setAddress",
+            "style" : {
+				"navigationBarTitleText": "地址管理"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/shopManage/setClassify",
+            "style" : {
+				"navigationBarTitleText": "店铺品类"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/shopManage/openingHours",
+            "style" : {
+				"navigationBarTitleText": "营业时间"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/earnings/earnings",
+            "style" : {
+				"navigationBarTitleText": "收益",
+				"navigationBarBackgroundColor": "#1C7CE9",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/goodsManage/index",
+            "style" : {
+				"navigationBarTitleText": "商品管理"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/goodsManage/createGoods",
+            "style" : {
+				"navigationBarTitleText": "创建商品"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/manage/goodsManage/setCategory",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/merchant/manage/goodsManage/setInfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/merchant/manage/orderManage/orderList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/merchant/manage/orderManage/orderDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/merchant/manage/orderManage/deliver",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/merchant/manage/orderManage/selectWuliu",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/user/setting/setUserInfo",
+            "style" : {
+				"navigationBarTitleText": "会员资料"
+			}
+        }
+        ,{
+            "path" : "pages/user/setting/setUserInfoName",
+            "style" : {
+				"navigationBarTitleText": "修改昵称"
+			}
+        }
+        ,{
+            "path" : "pages/user/setting/address",
+            "style" : {
+				"navigationBarTitleText": "收货地址"
+			}
+        }
+        ,{
+            "path" : "pages/user/setting/getCode",
+            "style" : {
+				"navigationBarTitleText": "获取验证码"
+			}
+        }
+        ,{
+            "path" : "pages/user/setting/setPayPass",
+            "style" : {
+				"navigationBarTitleText": "设置支付密码"
+			}
+        }
+        ,{
+            "path" : "pages/user/setting/editAddress",
+            "style" : {
+				"navigationBarTitleText": "收货地址"
+			}
+        }
+        ,{
+            "path" : "pages/auth/locationImpower",
+            "style" : {
+				"navigationBarTitleText": "位置授权"
+			}
+        }
+        ,{
+            "path" : "pages/auth/settleInfo",
+            "style" : {
+				"navigationBarTitleText": "商家入驻"
+			}
+        }
+        ,{
+            "path" : "pages/index/map",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/user/view",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/index",
+            "style" : {
+				"navigationBarTitleText": "外卖中心"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/videoManage/videoList",
+            "style" : {
+				"navigationBarTitleText": "我的视频"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/goodsManage/createVideo",
+            "style" : {
+				"navigationBarTitleText": "视频发布"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/goodsManage/addCategory",
+            "style" : {
+				"navigationBarTitleText": "添加分类"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/goodsManage/categoryList",
+            "style" : {
+				"navigationBarTitleText": "分类列表"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/goodsManage/goodsList",
+            "style" : {
+				"navigationBarTitleText": "商品列表"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/goodsManage/createGoods",
+            "style" : {
+				"navigationBarTitleText": "创建商品"
+			}
+        }
+        ,{
+            "path" : "pages/merchant/takeout/goodsManage/setCategory",
+            "style" : {
+				"navigationBarTitleText": "选择分类"
+			}
+        }
+        ,{
+            "path" : "pages/takeout/video",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/takeout/follow",
+            "style" : {
+				"navigationBarTitleText": "我的关注"
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/index",
+            "style" : {
+				"navigationBarTitleText": "代理中心"
+			}
+        }
+        ,{
+            "path" : "pages/takeout/collection",
+            "style" : {
+				"navigationBarTitleText": "我的收藏"
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/unionMerchants",
+            "style" : {
+				"navigationBarTitleText": "联盟商户"
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/fanDetails",
+            "style" : {
+				"navigationBarTitleText": "商家粉丝"
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/earnings/index",
+            "style" : {
+				"navigationBarTitleText": "收益",
+				"navigationBarBackgroundColor": "#4BA664",
+				"navigationBarTextStyle": "white"
+				
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/earnings/detail",
+            "style" : {
+				"navigationBarTitleText": "收益详情"
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/team/index",
+            "style" : {
+				"navigationBarTitleText": "团队",
+				"navigationBarBackgroundColor": "#4BA664",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/team/cityDetail",
+            "style" : {
+				"navigationBarTitleText": "区县级代理"
+			}
+        }
+        ,{
+            "path" : "pages/user/agent/team/areaDetail",
+            "style" : {
+				"navigationBarTitleText": "推广员"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "百付邦",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 50
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FF5C09",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/ic_tab_home_d.png",
+				"selectedIconPath": "static/ic_tab_home_s.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/takeout/takeout",
+				"iconPath": "static/ic_tab_takeout_d.png",
+				"selectedIconPath": "static/ic_tab_takeout_s.png",
+				"text": "吃什么"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/ic_tab_cart_d.png",
+				"selectedIconPath": "static/ic_tab_cart_s.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/ic_tab_mine_d.png",
+				"selectedIconPath": "static/ic_tab_mine_s.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
